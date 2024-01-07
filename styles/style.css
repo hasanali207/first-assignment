@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Merriweather', serif;
+}
+.container{
+    width: 80%;
+    max-width: 1600px;
+    margin: 0 auto;
+}
+#header{
+    margin-top: 50px;
+}
+.banner{
+    background: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url('../img/banner-image.png');
+    border-radius: 16px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 585px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+.banner-content{
+    margin: auto;
+
+}
+.banner-content h3{
+    color: #FFF;
+    text-align: center;
+    font-size: 32px;
+    align-items: center;
+}
+.banner-content h1{
+color: #FFF;
+text-align: center;
+font-size: 72px;
+font-weight: 900;
+line-height: 95px
+}
+
+/* Holiday offer content  */
+.holiday-offer{
+    padding:80px 0;
+}
+.holiday-offer-content{
+   text-align: center;
+
+}
+.holiday-offer-content h1{
+    color: #F00;
+    font-family: Inter;
+    font-size: 88px;
+    font-weight: 700;
+    
+}
+.holiday-offer-content h3{
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 48px;
+    margin-bottom: 10px;
+}
+.holiday-offer-content h2{
+    color: #070211;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+}
+.holiday-offer-content img{
+    width: 802.9px;
+    height: 500px;
+    flex-shrink: 0;
+    margin-top: 48px;
+}
