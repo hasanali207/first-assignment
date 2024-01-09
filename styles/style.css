@@ -145,7 +145,7 @@ footer {
 .sec2-left-content p {
   color: rgba(255, 255, 255, 0.8);
 }
-.sec2-left-content button {
+.join-button {
   border: none;
   outline: none;
   background: none;
@@ -370,7 +370,7 @@ footer {
 }
 .subscribe-content input[type="email"] {
   border-radius: 50px 0 0 50px;
-  padding-left: 20px;
+  padding-left: 30px;
   color: rgba(7, 2, 17, 0.3);
   font-family: Inter;
   font-size: 18px;
@@ -395,3 +395,52 @@ footer {
   cursor: pointer;
 }
 
+/* footer section style  */
+.footer {
+  background: #070211;
+}
+.footer-content {
+  padding: 120px 0;
+}
+.footer-top-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-top-content h3 {
+  color: #fff;
+}
+.footer-top-content li {
+  color: #fff;
+  list-style: none;
+  margin-top: 10px;
+}
+.footer-social-content {
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+  margin: 100px 0;
+}
+.footer-social-content img {
+  width: 64px;
+  height: 64px;
+  cursor: pointer;
+  margin: 0 25px;
+}
+.footer-bottom-content{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer-bottom-content h3{
+  color:#fff;
+}
+.footer-bottom-content .unsubscribe{
+  color:#fff;
+  border: none;
+  outline: none;
+  background: none;
+  cursor: pointer;
+}
