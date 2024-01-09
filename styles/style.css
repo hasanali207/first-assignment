@@ -9,7 +9,7 @@
   max-width: 1600px;
   margin: 0 auto;
 }
-img{
+img {
   widows: 100%;
   height: auto;
   vertical-align: middle;
@@ -50,7 +50,12 @@ img{
   text-transform: uppercase;
 }
 
-.sec2, .sec3, .sec5, .sec6,{
+.sec2,
+.sec3,
+.sec5,
+.sec6,
+.subscribe,
+footer {
   margin-top: 120px;
 }
 /* header content style */
@@ -248,42 +253,41 @@ img{
 .holiday-section p {
   text-align: center;
 }
-.holiday-offer{
+.holiday-offer {
   margin-top: 30px;
   position: relative;
 }
-.holiday-offer img{
+.holiday-offer img {
   width: 100%;
 }
 .holiday-offer-img-wrapper {
   position: relative;
   width: 100%;
   height: 400px;
-  
-} 
-.holiday-offer-img-wrapper .img1{
+}
+.holiday-offer-img-wrapper .img1 {
   position: absolute;
   z-index: 455;
 }
-.holiday-offer-img-wrapper .img3{
+.holiday-offer-img-wrapper .img3 {
   position: absolute;
   right: 0;
 }
-.holiday-offer-img-wrapper .img4{
+.holiday-offer-img-wrapper .img4 {
   position: absolute;
   top: 100%;
   width: 100%;
   overflow: hidden;
 }
-.holiday-offer .img2{
+.holiday-offer .img2 {
   position: absolute;
-  right:25%;
-  top:15%;
+  right: 25%;
+  top: 15%;
   z-index: 23303;
 }
 
 /* .portfolio section star  */
-.portfolio{
+.portfolio {
   margin-top: 250px;
 }
 .portfolios {
@@ -296,42 +300,98 @@ img{
 
 .portfolios .portfolio-item {
   position: relative;
-  background-color:#2a2e35;
+  background-color: #2a2e35;
   border-radius: 5px;
   -webkit-box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.1);
   box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.1);
-  -webkit-transition: all .4s ease-in-out;
-  transition: all .4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
   cursor: pointer;
 }
 
 .portfolios .portfolio-item:hover {
   -webkit-box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.3);
-          box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.3);
+  box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.3);
   -webkit-transform: translateY(-5px);
-          transform: translateY(-5px);
-  -webkit-transition: all .4s ease-in-out;
-  transition: all .4s ease-in-out;
+  transform: translateY(-5px);
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
 }
 
 .portfolios .portfolio-item:hover img {
   -webkit-filter: grayscale(0);
-          filter: grayscale(0);
+  filter: grayscale(0);
   -webkit-transform: scale(1.1);
-          transform: scale(1.1);
+  transform: scale(1.1);
   -webkit-box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.8);
-          box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.8);
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.8);
 }
 
 .portfolios .portfolio-item img {
   width: 100%;
   height: 300px;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
-  -webkit-filter: grayscale(100%);
-          filter: grayscale(100%);
-  -webkit-transition: all .4s ease-in-out;
-  transition: all .4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
 }
+
+/* subscribe section content style */
+.subscribe-bg {
+  background-color: rgba(255, 0, 0, 0.05);
+  padding: 16px;
+}
+.subscribe-content {
+  margin: auto;
+  text-align: center;
+  padding: 80px 220px;
+}
+.subscribe-content img {
+  width: 150px;
+  height: 150px;
+}
+.subscribe-content h2 {
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.subscribe-content .subscribe-form {
+  margin-top: 50px;
+  display: flex;
+}
+
+.subscribe-content input {
+  width: 100%;
+  height: 50px;
+  outline: none;
+  border: none;
+}
+.subscribe-content input[type="email"] {
+  border-radius: 50px 0 0 50px;
+  padding-left: 20px;
+  color: rgba(7, 2, 17, 0.3);
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 600;
+}
+.subscribe-content input::placeholder {
+  color: rgba(7, 2, 17, 0.3);
+  text-align: center;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+}
+.subscribe-content input[type="submit"] {
+  flex-shrink: 0;
+  border-radius: 0px 50px 50px 0px;
+  background: #f00;
+  width: 200px;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+}
+
