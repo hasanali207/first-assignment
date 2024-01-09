@@ -10,8 +10,7 @@
   margin: 0 auto;
 }
 img {
-  width: 100%;
-  height: auto;
+  
   vertical-align: middle;
 }
 .section-subtitle {
@@ -202,19 +201,15 @@ footer {
   margin-top: 16px;
   margin-bottom: 22px;
 }
-.coming-soon-text {
-}
+
 .coming-soon-img {
-  width: 350px;
-  height: 350px;
-  border-radius: 350px;
-  border: 15px solid #f00;
   flex-basis: 33%;
 }
 .coming-soon-img img {
   width: 300px;
-  border-radius: 300px;
+  border-radius: 50%;
   padding: 26px;
+  border: 15px solid #f00;
 }
 .coming-soon-right-text {
   flex-basis: 25%;
@@ -232,7 +227,8 @@ footer {
 }
 
 /* holiday section style  */
-.holiday-section {
+.holiday-section img {
+  width: 100%;
 }
 .holiday-section h3 {
   color: #070211;
