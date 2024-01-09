@@ -10,7 +10,7 @@
   margin: 0 auto;
 }
 img {
-  widows: 100%;
+  width: 100%;
   height: auto;
   vertical-align: middle;
 }
@@ -254,9 +254,7 @@ footer {
   margin-top: 30px;
   position: relative;
 }
-.holiday-offer img {
-  width: 100%;
-}
+
 .holiday-offer-img-wrapper {
   position: relative;
   width: 100%;
@@ -265,6 +263,9 @@ footer {
 .holiday-offer-img-wrapper .img1 {
   position: absolute;
   z-index: 455;
+  width: 450px;
+  top: 45%;
+  left: 3%;
 }
 .holiday-offer-img-wrapper .img3 {
   position: absolute;
@@ -313,7 +314,7 @@ footer {
 }
 
 .portfolios .portfolio-item:hover img {
-    -webkit-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
   transform: scale(1.1);
   -webkit-box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.8);
   box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.8);
@@ -328,7 +329,7 @@ footer {
   border-top-right-radius: 5px;
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
-  border-radius:16px;
+  border-radius: 16px;
 }
 
 /* subscribe section content style */
@@ -369,7 +370,7 @@ footer {
   font-family: Inter;
   font-size: 18px;
   font-weight: 600;
-  width:300px
+  width: 300px;
 }
 .subscribe-content input::placeholder {
   color: rgba(7, 2, 17, 0.3);
