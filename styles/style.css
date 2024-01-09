@@ -288,7 +288,10 @@ footer {
 
 /* .portfolio section star  */
 .portfolio {
-  margin-top: 250px;
+  margin-top: 300px;
+}
+.portfolio h2 {
+  margin: 20px 0;
 }
 .portfolios {
   display: -ms-grid;
@@ -360,6 +363,7 @@ footer {
 .subscribe-content .subscribe-form {
   margin-top: 50px;
   display: flex;
+  justify-content: center;
 }
 
 .subscribe-content input {
@@ -418,10 +422,9 @@ footer {
 }
 .footer-social-content {
   display: flex;
-
   align-items: center;
   justify-content: center;
-  margin: 100px 0;
+  margin: 50px 0;
 }
 .footer-social-content img {
   width: 64px;
@@ -429,16 +432,16 @@ footer {
   cursor: pointer;
   margin: 0 25px;
 }
-.footer-bottom-content{
+.footer-bottom-content {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-.footer-bottom-content h3{
-  color:#fff;
+.footer-bottom-content h3 {
+  color: #fff;
 }
-.footer-bottom-content .unsubscribe{
-  color:#fff;
+.footer-bottom-content .unsubscribe {
+  color: #fff;
   border: none;
   outline: none;
   background: none;
