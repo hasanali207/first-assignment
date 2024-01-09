@@ -170,7 +170,7 @@ footer {
     rgba(255, 0, 0, 0.1) 0%,
     rgba(255, 0, 0, 0) 100%
   );
-  padding: 100px 0 200px;
+  padding: 100px 0 100px;
   border-radius: 16px;
 }
 .address-details {
